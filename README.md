@@ -29,9 +29,15 @@ ohmysilex.conf - example of Apache2 configuration
 ## Installing Oh My Silex application:
 
 1.Get composer: https://getcomposer.org
+
 2.cd protected
+
 3.composer install
+
 4.cp stuff/ohmysilex.conf /etc/apache2/sites-available
+
 5.a2ensite ohmysilex.conf
+
 6.service apache2 reload
+
 7.echo "Happy coding!"

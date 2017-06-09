@@ -39,16 +39,19 @@ ohmysilex.conf - example of Apache2 configuration
 
 ## Installing Oh My Silex application:
 
-1.Get composer: https://getcomposer.org
+Let's install this Oh My Silex into /var/www/ohmysilex folder
 
-2.cd protected
 
-3.composer install
+1.cd /var/www && git clone https://github.com/vvmspace/ohmysilex
 
-4.cp stuff/ohmysilex.conf /etc/apache2/sites-available
+2.Get composer: https://getcomposer.org
 
-5.a2ensite ohmysilex.conf
+3.cd /var/www/ohmysilex/protected
 
-6.service apache2 reload
+4.composer install
 
-7.echo "Happy coding!"
+5.cp /var/www/ohmysilex/stuff/ohmysilex.conf /etc/apache2/sites-available
+
+6.a2ensite ohmysilex.conf
+
+7.service apache2 reload

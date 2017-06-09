@@ -1,4 +1,9 @@
 <?php
 use Silex\Application;
-$app = new Application();
+
+class OhMySilexApplication extends Application{
+	// Type your code here
+}
+
+$app = new OhMySilexApplication();
 return $app;

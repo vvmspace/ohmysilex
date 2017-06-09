@@ -1,4 +1,6 @@
 <?php
-$app->get('/', function(){
-	return 'Home';
+$app->get('/', function () use ($app) {
+    return $app['twig']->render('template.twig', array(
+        'twig_test' => 'Twig test',
+    ));
 });

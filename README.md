@@ -29,6 +29,8 @@ app/config/prod.php - config file for production (beta)
 
 app/config/secret.php - put your database configuration, API keys etc here
 
+app/templates - put your Twig templates here
+
 ### stuff: usefull files
 
 

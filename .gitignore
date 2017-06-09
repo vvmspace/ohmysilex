@@ -1,3 +1,4 @@
 protected/vendor
 protected/composer.lock
 protected/app/config/secret.php
+logs/*.log

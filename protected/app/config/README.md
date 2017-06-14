@@ -1,4 +1,4 @@
-# Oh My Silex PHP application confiugation folder:
+# Oh My Silex PHP application configuration folder:
 
 Put your configuration files in this folder.
 

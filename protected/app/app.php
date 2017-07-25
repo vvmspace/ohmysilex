@@ -4,6 +4,7 @@ use Silex\Provider\TwigServiceProvider;
 
 class OhMySilexApplication extends Application{
 	// Type your code here
+	
 	function __construct(){
 		parent::__construct();
         $this->register(new TwigServiceProvider());

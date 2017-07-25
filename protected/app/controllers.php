@@ -4,3 +4,10 @@ $app->get('/', function () use ($app) {
         'twig_test' => 'Twig test',
     ));
 });
+$app->get('/redis', function() use ($app){
+    if($app->redis->set('redis-test', time())){
+        return 'redis-test: ' . $app->redis->get('redis-test');
+    }else{
+        return 'redis-test: failure';
+    }
+});

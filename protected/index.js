@@ -1,0 +1,1 @@
+console.log('Oh My Silex! It is Node JS application!');

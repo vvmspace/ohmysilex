@@ -1,5 +1,7 @@
 # Oh My Silex
 
+Silex quick start repository - competitor/alternative of Silex Skeleton
+
 ## Structure of simple Silex PHP application:
 
 ### public: config your VirtualHost to this folder
@@ -27,7 +29,7 @@ app/config - configuration files
 
 app/config/prod.php - config file for production (beta)
 
-app/config/secret.php - put your database configuration, API keys etc here
+app/config/secret.php - put your database & redis configuration, API keys etc here
 
 app/templates - put your Twig templates here
 

@@ -4,6 +4,8 @@ Silex quick start repository - competitor/alternative of Silex Skeleton
 
 ## Structure of simple Silex PHP application:
 
+.htaccess - if you are using c9.io or something else for development from root of project NOT RECOMENDED FOR PRODUCTION
+
 ### public: config your VirtualHost to this folder
 
 

@@ -6,6 +6,12 @@ Silex quick start repository - competitor/alternative of Silex Skeleton
 
 .htaccess - if you are using c9.io or something else for development from root of project NOT RECOMENDED FOR PRODUCTION
 
+### cache: cache files
+
+doctrine - cache files for doctrine
+
+doctrine/proxy - cache files for doctrine proxies
+
 ### public: config your VirtualHost to this folder
 
 
@@ -29,7 +35,11 @@ app/controllers.php - put your controllers here
 
 app/config - configuration files
 
+app/config/example.secret.php - examples file for secret.php
+
 app/config/prod.php - config file for production (beta)
+
+app/config/registers.php - register components etc here
 
 app/config/secret.php - put your database & redis configuration, API keys etc here
 

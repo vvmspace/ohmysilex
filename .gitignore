@@ -1,3 +1,5 @@
 protected/vendor
 protected/app/config/secret.php
-logs/*.log
+protected/cache/*
+!protected/cache/README.md
+logs/*.logs

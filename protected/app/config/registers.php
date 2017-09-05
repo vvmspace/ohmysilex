@@ -2,6 +2,9 @@
 use Doctrine\Common\Cache\ArrayCache;
 
 $app->register(new Silex\Provider\DoctrineServiceProvider(), $app['doctrine.config']);
+
+// TODO: replace ArrayCache with PredisCache
+
 $app->register(new Nutwerk\Provider\DoctrineORMServiceProvider(), array(
     'db.orm.proxies_dir'           => __DIR__.'/../cache/doctrine/proxy',
     'db.orm.proxies_namespace'     => 'DoctrineProxy',
@@ -10,6 +13,6 @@ $app->register(new Nutwerk\Provider\DoctrineORMServiceProvider(), array(
     'db.orm.entities'              => array(array(
         'type'      => 'annotation',
         'path'      => __DIR__,
-        'namespace' => 'TestApp\Entity',
+        'namespace' => 'OhMySilex\Entity',
     )),
 ));

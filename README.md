@@ -30,8 +30,7 @@ app/ - folder with application
 
 app/app.php - put your code in OhMySilexApplication class
 
-app/controllers.php - put your controllers here
-
+app/controllers.php - put your controllers & routes here
 
 app/config - configuration files
 
